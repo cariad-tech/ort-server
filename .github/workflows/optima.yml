@@ -12,3 +12,4 @@ jobs:
       - uses: vwdfive/optima-actions@dev
         with:
           toolstation-token: ${{ secrets.OPTIMA_TOKEN }}
+          github-token: ${{ secrets.PLATOSS_GITHUB_TOKEN }}
